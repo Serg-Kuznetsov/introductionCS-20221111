@@ -33,7 +33,6 @@ void Print(int[] a)
 }
 
 int [] a=RandomIntArray(5,100,999);
-
 Print (a);
 System.Console.WriteLine();
 System.Console.WriteLine($"Количество четных чисел: {CountChet(a)}");
