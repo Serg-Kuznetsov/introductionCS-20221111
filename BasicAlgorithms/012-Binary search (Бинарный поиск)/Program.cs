@@ -38,6 +38,7 @@ else
     return  i;
 
 }
+Console.ReadLine();
 int find=20;
 int[]a=RandomIntArray(10,0,10);
 a[6]=find;
