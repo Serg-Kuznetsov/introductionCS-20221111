@@ -18,13 +18,13 @@ for(int i=0;i<a.Length;i++)
     System.Console.Write("{0,"+tab+"}",a[i]); 
 }
  
-void Swap (ref int a, ref int b)
+/*void Swap (ref int a, ref int b)
 {
     int t=a;
     a=b;
     b=t;
 }
-
+*/
 void Revers(int[] a)
 { 
     int t;
@@ -36,7 +36,7 @@ void Revers(int[] a)
     }
 
 
-    // Swap(ref a[i], ref a[a.Length-1-i]);
+   //Swap(ref a[i], ref a[a.Length-1-i]);
 }
 
 // Создали масив
@@ -45,6 +45,6 @@ int[]   a=RandomIntArray(n,0,200);
 PrintArray(a,5);
 // Обработка массива
 Revers(a);
-//a=a.Reverse().ToArray();
+a=a.Reverse().ToArray();
 System.Console.WriteLine();
 PrintArray(a,5);

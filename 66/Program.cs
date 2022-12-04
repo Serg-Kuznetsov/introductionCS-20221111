@@ -34,7 +34,7 @@ int [,] a=Create2DArray(4,6);
 Print2DArray(a);
 
 
-/*try 
+try 
 {
 System.Console.WriteLine(SumMainDiagonal(a));
 }
@@ -43,4 +43,3 @@ catch (Exception ex)
 {
     System.Console.WriteLine(ex.Message);
 }
-*/
