@@ -7,3 +7,6 @@ int Sumdigit (int n)
 }
 
 System.Console.WriteLine(Sumdigit(123));
+// using System;
+// int n=int.Parse(Console.ReadLine());
+// System.Console.WriteLine(n/100);
