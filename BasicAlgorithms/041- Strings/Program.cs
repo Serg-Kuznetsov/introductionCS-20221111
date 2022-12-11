@@ -2,8 +2,7 @@
 // 10 20 30
 
 /*string s=Console.ReadLine();
-string[] ss=s.Split(' ');
-int[] n=[ss.Length];
+c
 for (int i=0;i<ss.Length; i++)
 n[i]=Convert.ToInt32(ss[i]);
 int a=n[0];
